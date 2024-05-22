@@ -17,7 +17,9 @@ Visit [Google Colab](https://colab.research.google.com/) to start working on the
 * After signing up go to Settings > Access Tokens and press on New Token to create a token
 * After this find the below line of code in the notebook you have already opened
   
-  ``` subprocess.run(["huggingface-cli", "login", "--token", "{{API_TOKEN}}"]) ```
+  ```md
+  subprocess.run(["huggingface-cli", "login", "--token", "{{API_TOKEN}}"])
+  ```
 
 * Copy your Token from Hugging face and replace {{API_TOKEN}} with it
 ### Step 4:
